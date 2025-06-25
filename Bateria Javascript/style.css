@@ -1,0 +1,54 @@
+html {
+  background: url('fundo.png') bottom center;
+  background-size: 100vw 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7vw;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.key {
+  background: linear-gradient(to bottom right, #7a7b9f, #2c2c2c);
+  border: 0.2vw solid #997f7f;
+  border-radius: 1vw;
+  box-shadow: 0 0.5vw 1vw rgba(216, 211, 211, 0.4);
+  padding: 2vh 1vw;
+  width: 10vw;
+  color: #fff;
+  text-align: center;
+  transition: transform 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
+  cursor: pointer;
+}
+
+.key:hover {
+  box-shadow: 0 0 1.5vw rgba(139, 121, 216, 0.3);
+  border-color: #bf74e5;
+}
+
+.playing {
+  transform: scale(1.15);
+  border-color: #7678cc;
+  box-shadow: 0 0 1.5vw #8286bc
+}
+
+kbd {
+  display: block;
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #15172f;
+}
+
+.sound {
+  font-size: 1.2vw;
+  text-transform: uppercase;
+  letter-spacing: 0.15vw;
+  color: #a2a0ac;
+  margin-top: 1vh;
+}
