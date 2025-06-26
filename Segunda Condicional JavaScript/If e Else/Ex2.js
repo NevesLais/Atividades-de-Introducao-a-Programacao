@@ -1,4 +1,4 @@
-let nome = "Ana"; // Você pode mudar o nome para testar
+let nome = "Ana";
 
 if (nome.startsWith("A") || nome.startsWith("a")) {
   console.log("O nome " + nome + " começa com a letra 'A'.");
