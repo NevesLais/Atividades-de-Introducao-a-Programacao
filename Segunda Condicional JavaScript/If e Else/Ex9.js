@@ -1,4 +1,4 @@
-let hora = 19; // Você pode mudar a hora para testar
+let hora = 19;
 
 if (hora >= 8 && hora <= 17) {
   console.log("Expediente normal");
