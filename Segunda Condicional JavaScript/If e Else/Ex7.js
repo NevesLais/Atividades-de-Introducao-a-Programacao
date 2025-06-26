@@ -1,4 +1,4 @@
-let pontuacao = 750; // Você pode mudar a pontuação para testar
+let pontuacao = 750; 
 let classificacao;
 
 if (pontuacao <= 400) {
