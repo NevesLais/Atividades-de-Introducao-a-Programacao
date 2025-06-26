@@ -1,4 +1,4 @@
-let senha = "minhasenhaforte"; // Você pode mudar a senha para testar
+let senha = "minhasenhaforte"; 
 
 if (senha.length >= 8) {
   console.log("Senha válida");
