@@ -1,5 +1,4 @@
-let numero = 16; // Você pode mudar o número para testar
-
+let numero = 16;
 if (numero % 4 === 0) {
   console.log("O número " + numero + " é múltiplo de 4.");
 } else {
