@@ -1,5 +1,5 @@
-let numeroUsuario = 3; // Você pode mudar o número do usuário
-let numeroComputador = Math.floor(Math.random() * 10) + 1; // Número aleatório de 1 a 10
+let numeroUsuario = 3; 
+let numeroComputador = Math.floor(Math.random() * 10) + 1; 
 
 let soma = numeroUsuario + numeroComputador;
 
