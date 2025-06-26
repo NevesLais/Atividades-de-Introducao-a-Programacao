@@ -1,4 +1,4 @@
-let peso = 7.5; // Em kg. Você pode mudar o peso para testar
+let peso = 7.5; 
 let frete;
 
 if (peso <= 1) {
