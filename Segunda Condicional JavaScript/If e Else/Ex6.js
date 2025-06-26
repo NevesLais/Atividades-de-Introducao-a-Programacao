@@ -1,4 +1,4 @@
-let numeroEstacao = 3; // 1 a 4. Você pode mudar o número para testar
+let numeroEstacao = 3; 
 let estacao;
 
 switch (numeroEstacao) {
